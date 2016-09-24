@@ -32,22 +32,22 @@ public class PetsCursorAdapter extends CursorAdapter {
 
         ViewHolder viewHolder = (ViewHolder) view.getTag();
 
-        int genderid = cursor.getInt(RegisterPet.COLUMN_INDEX_GENDER);
+        /*int genderid = cursor.getInt(RegisterPet.COLUMN_INDEX_GENDER);
         String gender = null;
 
         switch (genderid){
-            case 0: gender = "Unknown";
+            case 0: gender = "Male";
                 break;
-            case 1: gender = "Male";
+            case 1: gender = "Female";
                 break;
-            case 2: gender = "Female";
+            case 2: gender = "Unknow";
                 break;
-        }
+        }*/
 
         viewHolder.name.setText(cursor.getString(RegisterPet.COLUMN_INDEX_NAME));
         viewHolder.breed.setText(cursor.getString(RegisterPet.COLUMN_INDEX_BREED));
-        viewHolder.gender.setText(gender);
-        viewHolder.weight.setText(cursor.getString(RegisterPet.COLUMN_INDEX_WEIGHT));
+        /*viewHolder.gender.setText(gender);
+        viewHolder.weight.setText(cursor.getString(RegisterPet.COLUMN_INDEX_WEIGHT));*/
     }
 
     class ViewHolder {
@@ -60,8 +60,8 @@ public class PetsCursorAdapter extends CursorAdapter {
 
             name = (TextView) view.findViewById(R.id.name);
             breed = (   TextView) view.findViewById(R.id.breed);
-            gender = (TextView) view.findViewById(R.id.gender);
-            weight = (TextView) view.findViewById(R.id.weight);
+            /*gender = (TextView) view.findViewById(R.id.gender);
+            weight = (TextView) view.findViewById(R.id.weight);*/
         }
 
 

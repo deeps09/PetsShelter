@@ -1,5 +1,5 @@
 <resources>
     <string name="app_name">Pets Shelter</string>
     <string name="action_settings">Settings</string>
-    <string name="title_activity_register_pet">Register new pet</string>
+    <string name="title_activity_register_pet">Add New Pet</string>
 </resources>

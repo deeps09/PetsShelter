@@ -26,6 +26,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentRight="true"
+        android:singleLine="true"
         android:layout_marginLeft="20dp"
         android:layout_toRightOf="@id/label_overview"
         android:hint="Pet's Name" />
@@ -37,6 +38,7 @@
         android:layout_alignParentRight="true"
         android:layout_below="@id/name_text"
         android:layout_marginLeft="20dp"
+        android:singleLine="true"
         android:layout_toRightOf="@id/label_overview"
         android:hint="Pet's Breed" />
 
@@ -55,9 +57,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/breed_text"
-        android:layout_marginLeft="20dp"
+        android:layout_marginLeft="15dp"
         android:layout_marginTop="10dp"
-        android:layout_toRightOf="@id/label_overview" />
+        android:layout_toRightOf="@id/label_overview"
+        android:dropDownSelector="@drawable/abc_popup_background_mtrl_mult" />
 
 
     <EditText
@@ -68,6 +71,7 @@
         android:layout_below="@id/gender_spinner"
         android:layout_marginLeft="20dp"
         android:layout_marginTop="10dp"
+        android:inputType="number"
         android:layout_toRightOf="@id/label_overview"
         android:hint="Pet's Weight" />
 

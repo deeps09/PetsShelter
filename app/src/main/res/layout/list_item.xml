@@ -7,42 +7,55 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
 
         <TextView
             android:id="@+id/name"
-            style="@style/label_textViews"
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_marginLeft="10dp"
-            android:layout_weight="1.5"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:textSize="16sp"
+            android:textColor="@color/colorAccent"
+            android:paddingTop="5dp"
+            android:paddingLeft="5dp"
             android:text="Tommy" />
 
         <TextView
             android:id="@+id/breed"
-            style="@style/label_textViews"
-            android:layout_width="0dp"
+            android:layout_width="match_parent"
+            android:textSize="12sp"
+            android:textColor="@color/lightGray"
             android:layout_height="match_parent"
-            android:layout_weight="1.5"
+            android:paddingLeft="10dp"
+            android:paddingBottom="5dp"
             android:text="Breed" />
 
-        <TextView
-            android:id="@+id/gender"
-            style="@style/label_textViews"
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:gravity="center"
-            android:layout_weight="1"
-            android:text="Gender" />
 
-        <TextView
-            android:id="@+id/weight"
-            style="@style/label_textViews"
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:gravity="center"
-            android:layout_weight="0.5"
-            android:text="Weight" />
+        <!--        <TextView
+                    android:id="@+id/breed"
+                    style="@style/label_textViews"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1.5"
+                    android:text="Breed" />
+
+                <TextView
+                    android:id="@+id/gender"
+                    style="@style/label_textViews"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:text="Gender" />
+
+                <TextView
+                    android:id="@+id/weight"
+                    style="@style/label_textViews"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:layout_weight="0.5"
+                    android:text="Weight" />-->
 
     </LinearLayout>
 </LinearLayout>

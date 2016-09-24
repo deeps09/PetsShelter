@@ -16,6 +16,9 @@
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.myapps.petsshelter.MainActivity" />
 
         </activity>
         <activity
@@ -23,9 +26,9 @@
             android:label="@string/title_activity_register_pet"
             android:parentActivityName=".MainActivity"
             android:theme="@style/AppTheme.NoActionBar">
-            <meta-data
+            <!--<meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.myapps.petsshelter.MainActivity" />
+                android:value="com.example.myapps.petsshelter.MainActivity" />-->
         </activity>
 
         <provider
